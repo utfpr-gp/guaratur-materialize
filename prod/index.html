@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Guaratur - Informações Turísticas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Import Google Icon Font-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Import Font Awesome Icon Font -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/libraries/materialize/css/materialize.css">
+    <link rel="stylesheet" href="assets/resources/styles/style.css">
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+
+<body id="home" class="scrollspy">
+
+    <!-- navbar -->
+    <div class="navbar-fixed">
+        <nav class="teal">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#home" class="brand-logo">Guaratur</a>
+                    <!-- hamburger icon for the mobile menu -->
+                    <a href="#" data-activates="slide-out" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#home">Início</a>
+                        </li>
+                        <li>
+                            <a href="#search">Busca</a>
+                        </li>
+                        <li>
+                            <a href="#popular">Pontos Turísticos</a>
+                        </li>
+                        <li>
+                            <a href="#gallery">Galeria</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar -->
+
+    <!-- painel de navegação lateral -->
+    <ul class="sidenav" id="slide-out">
+        <li>
+            <a href="#home">Início</a>
+        </li>
+        <li>
+            <a href="#search">Busca</a>
+        </li>
+        <li>
+            <a href="#popular">Pontos Turísticos</a>
+        </li>
+        <li>
+            <a href="#gallery">Galeria</a>
+        </li>
+        <li>
+            <a href="#contact">Contato</a>
+        </li>
+    </ul>
+    <!-- painel de navegação lateral -->
+
+
+    <!-- main -->
+    <main>
+        <!-- section - slider -->
+        <section class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="assets/resources/images/lagoa-das-lagrimas.jpg" alt="">
+                    <div class="caption center-align">
+                        <h2>Lagoa das Lágrimas</h2>
+                        <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam odit, nam rem veritatis voluptates ipsa!
+                        </h5>
+                        <a href="#" class="btn btn-large">Leia Mais</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="assets/resources/images/parque-do-lago.jpg" alt="">
+                    <div class="caption left-align">
+                        <h2>Parque do Lago</h2>
+                        <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam odit, nam rem veritatis voluptates ipsa!
+                        </h5>
+                        <a href="#" class="btn btn-large">Leia Mais</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="assets/resources/images/praca-da-fe.jpg" alt="">
+                    <div class="caption center-right">
+                        <h2>Praça da Fé</h2>
+                        <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam odit, nam rem veritatis voluptates ipsa!
+                        </h5>
+                        <a href="#" class="btn btn-large">Leia Mais</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- section - slider -->
+
+        <!-- section - busca-->
+        <section id="search" class="section teal darken-1 white-text center scrollspy">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h3>Busca por Pontos Turísticos</h3>
+                        <div class="input-field">
+                            <input class="white grey-text autocomplete" style="padding-left:10px" type="text" placeholder="Praça da Fé, Parque do Lago, etc." id="autocomplete-input">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section - busca -->
+
+        <!-- section - ícones -->
+        <section class="section grey lighten-4 center">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card-panel">
+                            <i class="material-icons large teal-text">room</i>
+                            <h4>O que fazer?</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nobis!</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card-panel">
+                            <i class="material-icons large teal-text">store</i>
+                            <h4>Acomodações</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nobis!</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card-panel">
+                            <i class="material-icons large teal-text">airplanemode_active</i>
+                            <h4>Transporte</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nobis!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section - ícones -->
+
+        <!-- section: pontos turísticos -->
+        <section id="popular" class="section scrollspy">
+            <div class="container">
+                <div class="row">
+                    <h4 class="center">
+                        <span class="teal-text">Pontos Turísticos</span>
+                    </h4>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/resources/images/lagoa-das-lagrimas.jpg" alt="">
+                                <span class="card-title">Lagoa das Lágrimas</span>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus suscipit tempore architecto laudantium veritatis accusantium!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/resources/images/parque-do-lago.jpg" alt="">
+                                <span class="card-title">Parque do Lago</span>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus suscipit tempore architecto laudantium veritatis accusantium!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/resources/images/praca-da-fe.jpg" alt="">
+                                <span class="card-title">Praça da Fé</span>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus suscipit tempore architecto laudantium veritatis accusantium!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section: pontos turísticos -->
+        <!-- section: botão contato -->
+        <section>
+            <div class="row">
+                <div class="col s12 center">
+                    <a href="#contact" class="btn btn-large grey darken-3">
+                        <i class="material-icons left">send</i>Entre em contato
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- section: botão contato -->
+
+        <!-- section - redes sociais -->
+        <section class="section teal darken-2 white-text center">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h4>Siga-nos</h4>
+                        <p>Siga-nos nas redes sociais para saber das novidades!</p>
+                        <a href="https://facebook.com" target="_blank" class="white-text">
+                            <i class="fab fa-facebook fa-4x"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="white-text">
+                            <i class="fab fa-twitter-square fa-4x"></i>
+                        </a>
+                        <a href="https://googleplus.com" target="_blank" class="white-text">
+                            <i class="fab fa-google-plus-square fa-4x"></i>
+                        </a>
+                        <a href="https://pinterest.com" target="_blank" class="white-text">
+                            <i class="fab fa-pinterest-square fa-4x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section - redes sociais -->
+
+        <!-- section - galeria -->
+        <section id="gallery" class="section scrollspy">
+            <div class="container">
+                <h4 class="center">
+                    <span class="teal-text">Galeria de Fotos</span>
+                </h4>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/4.jpg" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/2.jpg" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/3.jpg" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/4.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/9.jpg" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/7.jpg" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/9.jpg" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/8.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section - galeria -->
+
+        <!-- section - contato -->
+        <section id="contact" class="section scrollspy">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="card-panel teal white-text center">
+                            <i class="material-icons medium">email</i>
+                            <h5>Entre em contato</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint repellat maxime hic eum corporis, alias asperiores dolore culpa repellendus.</p>
+                        </div>
+                        <ul class="collection with-header">
+                            <li class="collection-header">
+                                <h4>Localização</h4>
+                            </li>
+                            <li class="collection-item">Guaratur</li>
+                            <li class="collection-item">Rua das Flores, 123</li>
+                            <li class="collection-item">Guarapuava - PR</li>
+                        </ul>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="card-panel grey lighten-3">
+                            <h5 class="form-header">Por favor, preencha o formulário.</h5>
+                            <div class="input-field">
+                                <input type="text" id="name">
+                                <label for="name">Nome</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="email" id="email">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="phone">
+                                <label for="phone">Telefone</label>
+                            </div>
+                            <div class="input-field">
+                                <textarea class="materialize-textarea" id="message"></textarea>
+                                <label for="message">Mensagem</label>
+                            </div>
+                            <input type="submit" value="Enviar" class="btn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section - contato -->
+    </main>
+    <!-- main -->
+
+    <!-- footer -->
+    <footer class="section teal darken-2 white-text center">
+        <p class="flow-text">Guaratur &copy; 2018</p>
+    </footer>
+    <!-- footer -->
+
+    <script src="assets/libraries/jquery/jquery-3.3.1.min.js"></script>
+    <script src="assets/libraries/materialize/js/materialize.js"></script>
+    <script src="assets/resources/scripts/index.js"></script>
+</body>
+
+</html>
