@@ -3,7 +3,7 @@
 $(document).ready(function () {
 
     // SIDENAV INIT
-    $('.button-collapse').sidenav();
+    $('.sidenav').sidenav();
 
     // SLIDER INIT
     $('.slider').slider({
