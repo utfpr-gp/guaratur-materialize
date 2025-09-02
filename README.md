@@ -27,16 +27,3 @@ O site apresenta uma página única (single page) com informações turísticas 
 - **Formulário de contato** com campos de nome, email, telefone e mensagem
 - **Footer** estilizado com Materialize
 
----
-
-## 📂 Estrutura do Projeto
-
-guaratur-materialize/
-│── assets/
-│ ├── libraries/ # Bibliotecas externas (Materialize, jQuery)
-│ ├── resources/
-│ │ ├── images/ # Imagens utilizadas no site
-│ │ ├── scripts/ # Arquivos JS customizados
-│ │ └── styles/ # Arquivos CSS customizados
-│── index.html # Página principal
-│── favicon.png # Ícone do site
