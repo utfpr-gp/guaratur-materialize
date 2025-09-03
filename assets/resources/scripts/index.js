@@ -1,32 +1,38 @@
 //M.AutoInit();
 
 $(document).ready(function () {
+  // SIDENAV INIT
+  $('.sidenav').sidenav();
 
-    // SIDENAV INIT
-    $('.sidenav').sidenav();
+  // SLIDER INIT
+  $('.slider').slider({
+    indicators: false,
+    // we don't want the little dots to show
+    height: 500,
+    transition: 500,
+    interval: 6000,
+    // how long the slide stays for
+  });
 
-    // SLIDER INIT
-    $('.slider').slider({
-        indicators: false,
-        // we don't want the little dots to show
-        height: 500,
-        transition: 500,
-        interval: 6000
-        // how long the slide stays for
-    });
+  // AUTOCOMPLETE FOR THE SEARCH FIELD
+  $('.autocomplete').autocomplete({
+    data: {
+      'Praça da Fé': null,
+      'Parque do Lago': null,
+      'São Francisco': null,
+      'Cidade dos Lagos': null,
+      'Lagoa das Lágrimas': null,
+      'Parque das Araucárias': null,
+    },
+  });
 
-    // AUTOCOMPLETE FOR THE SEARCH FIELD
-    $('.autocomplete').autocomplete({
-        data: {
-            'Praça da Fé': null,
-            'Parque do Lago': null,
-            'São Francisco': null,
-            'Cidade dos Lagos': null,
-            'Lagoa das Lágrimas': null,
-            'Parque das Araucárias': null
-        }
-    });
-
-    // INIT SCROLLSPY
-    $('.scrollspy').scrollSpy();
+  // INIT SCROLLSPY
+  $('.scrollspy').scrollSpy();
 });
+
+// Get current year
+const year = new Date().getFullYear();
+
+// Insert year in footer
+const footer = document.querySelector('footer p');
+footer.innerHTML = `Guaratur &copy; ${year}`;
